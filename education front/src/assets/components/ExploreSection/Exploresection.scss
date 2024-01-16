@@ -1,0 +1,38 @@
+.explore{
+    max-width: 100vw;
+
+    &_container{
+        max-width: 60%;
+        display: flex;
+        padding: 50px;
+        margin: 0 auto;
+        justify-content: space-between;
+        img{
+            width: 400px;
+
+        }
+        &_text{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 55%;
+            h6{
+                font-size: 42px;
+                
+            }
+            p{
+                color: #777777
+                ;
+                line-height: 25px;
+            }
+            button{
+                width: 150px;
+                height: 50px;
+                background-color: #36ADC4;
+                border: none;
+                color: white;
+                border-radius: 8px;
+            }
+        }
+    }
+}

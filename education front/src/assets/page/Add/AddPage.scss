@@ -1,0 +1,26 @@
+.form{
+    margin-top: 100px;
+
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    max-width: 60%;
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    i{
+        cursor: pointer;
+    }
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

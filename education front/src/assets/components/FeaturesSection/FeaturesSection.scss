@@ -1,0 +1,50 @@
+.features {
+  max-width: 100vw;
+  input {
+    padding: 8px 50px;
+  }
+  &_container {
+    max-width: 60%;
+    margin: 50px auto;
+    text-align: center;
+    h6 {
+      font-size: 42px;
+    }
+    p {
+      text-align: center;
+      color: #777777;
+    }
+    &_cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-top: 50px;
+      &_card {
+        padding: 30px;
+        background-color: #f1f9ff;
+        width: 280px;
+        height: 250px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        transition: 300ms;
+        &:hover {
+          background-color: white;
+          box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+            rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        }
+        i {
+          font-size: 36px;
+          cursor: pointer;
+        }
+        .title {
+          font-size: 21px;
+        }
+        .description {
+          color: #777777;
+        }
+      }
+    }
+  }
+}
